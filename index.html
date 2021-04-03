@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <title>HTML details hash</title>
+  </head>
+  <body>
+    <p>
+      Will a <code>details</code> element automatically open if there is another
+      element in it and a <code>#hash</code> link identifying that element is
+      clicked?
+    </p>
+    <p>
+      Let's find out:
+    </p>
+    <a href="#spot">Go to the spot</a>
+    <p>
+      This <code>details</code> element either will or won't upon upon click:
+    </p>
+    <details>
+      <summary>Mystery</summary>
+      <span id="spot">This is the spot!</span>
+    </details>
+    <h2>Spoiler Alert!</h2>
+    <p>
+      It won't open!
+    </p>
+  </body>
+</html>
